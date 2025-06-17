@@ -1,86 +1,73 @@
-# 🚀 FrozenSaaSApp - Frontend
+# Welcome to your Lovable project
 
-Frontend React para o sistema de delivery multi-tenant FrozenSaaSApp.
+## Project info
 
-## 🛠️ **Tecnologias Utilizadas**
+**URL**: https://lovable.dev/projects/eb135db5-83f0-4ecb-ab36-95f61645c8fb
 
-- **React 18** + TypeScript
-- **Tailwind CSS** para estilização
-- **Supabase** para backend
-- **Radix UI** para componentes
-- **Vite** para build e desenvolvimento
-- **Lucide React** para ícones
+## How can I edit this code?
 
-## 📁 **Estrutura do Projeto**
+There are several ways of editing your application.
 
-```
-frontend/
-├── src/
-│   ├── lib/
-│   │   └── supabase.ts      # Configuração do Supabase
-│   ├── components/          # Componentes React
-│   ├── pages/              # Páginas da aplicação
-│   └── types/              # Tipos TypeScript
-├── public/                 # Arquivos estáticos
-├── package.json           # Dependências
-└── README.md             # Esta documentação
-```
+**Use Lovable**
 
-## 🔗 **Conexão com Backend**
+Simply visit the [Lovable Project](https://lovable.dev/projects/eb135db5-83f0-4ecb-ab36-95f61645c8fb) and start prompting.
 
-- **URL:** `https://kuaxylxgyjygfmixkmhg.supabase.co`
-- **Schema:** 30+ tabelas configuradas
-- **Autenticação:** Supabase Auth
-- **RLS:** Row Level Security ativo
+Changes made via Lovable will be committed automatically to this repo.
 
-## 🚀 **Como Executar**
+**Use your preferred IDE**
 
-```bash
-# Instalar dependências
-npm install
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-# Executar em desenvolvimento
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+
+Follow these steps:
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
-
-# Build para produção
-npm run build
-
-# Preview da build
-npm run preview
 ```
 
-## 📊 **Status Atual**
+**Edit a file directly in GitHub**
 
-### ✅ **Configurado:**
-- [x] Supabase client
-- [x] Tipos TypeScript
-- [x] Estrutura base
-- [x] Dependências
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-### 🔄 **Em Desenvolvimento:**
-- [ ] Componentes de UI
-- [ ] Páginas principais
-- [ ] Sistema de autenticação
-- [ ] Dashboard admin
-- [ ] Catálogo de produtos
-- [ ] Sistema de pedidos
+**Use GitHub Codespaces**
 
-## 🎯 **Funcionalidades Planejadas**
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-1. **Autenticação Multi-tenant**
-2. **Dashboard Administrativo**
-3. **Gestão de Produtos**
-4. **Sistema de Pedidos**
-5. **Controle de Estoque**
-6. **Relatórios e Analytics**
-7. **Configurações da Empresa**
+## What technologies are used for this project?
 
-## 🔧 **Configuração**
+This project is built with:
 
-O frontend está configurado para conectar automaticamente com o backend Supabase. As credenciais estão em `src/lib/supabase.ts`.
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
----
+## How can I deploy this project?
 
-**Desenvolvido por:** Marseau  
-**Projeto:** FrozenSaaSApp  
-**Última atualização:** Janeiro 2025 
+Simply open [Lovable](https://lovable.dev/projects/eb135db5-83f0-4ecb-ab36-95f61645c8fb) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
