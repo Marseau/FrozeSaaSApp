@@ -52,7 +52,7 @@ const handler = async (req: Request): Promise<Response> => {
     console.log('Template encontrado:', template.nome);
 
     // Gerar link de cadastro correto
-    const frontendUrl = 'https://kuaxylxgyjygfmixkmhg.lovableproject.com';
+    const frontendUrl = 'https://froze-saa-s-app.vercel.app';
     const link_cadastro = `${frontendUrl}/cadastro-empresa?token=${token}`;
     
     console.log('Link de cadastro gerado:', link_cadastro);
