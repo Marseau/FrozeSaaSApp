@@ -1,0 +1,33 @@
+# Arquivos de configuração sensíveis
+.env.local
+.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos temporários
+.DS_Store
+.vscode/
+*~
+*.tmp
+*.temp
+
+# Node modules (se houver)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Arquivos do sistema
+Thumbs.db
+
+# Backup files
+*.backup
+*.bak
+
+# Office temp files
+~$*.docx
+~$*.xlsx
+~$*.pptx 
