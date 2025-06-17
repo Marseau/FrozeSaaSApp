@@ -4,13 +4,16 @@
 # =================================================================
 
 # URL do seu projeto Supabase (encontre no painel do Supabase)
-SUPABASE_URL=https://seu-projeto-id.supabase.co
+SUPABASE_URL=https://your-project-id.supabase.co
 
 # Service Role Key (encontre em: Projeto > Settings > API)
-SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key-here
 
 # Chave anônima (opcional, para operações públicas)  
-SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+SUPABASE_ANON_KEY=your-anon-key-here
+
+PROJECT_ID=your-project-id
+DATABASE_URL=postgresql://postgres:[password]@db.your-project-id.supabase.co:5432/postgres
 
 # =================================================================
 # COMO USAR:

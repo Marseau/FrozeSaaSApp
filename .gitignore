@@ -1,6 +1,23 @@
-# Arquivos de configuração sensíveis
-.env.local
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production
+build/
+dist/
+
+# Environment variables
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+supabase_connection.env
 
 # Logs
 *.log
@@ -16,7 +33,6 @@ yarn-error.log*
 *.temp
 
 # Node modules (se houver)
-node_modules/
 package-lock.json
 yarn.lock
 
@@ -30,4 +46,19 @@ Thumbs.db
 # Office temp files
 ~$*.docx
 ~$*.xlsx
-~$*.pptx 
+~$*.pptx
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Supabase
+.supabase/
+supabase/.env 
